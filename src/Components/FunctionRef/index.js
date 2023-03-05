@@ -1,10 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
+import { Context } from "../Context";
 
 const FunctionRef = () => {
   // Useref hooks
   // 1. useref() => DOM access
-  //   2. to store the value of previous state !!!
-  const [Text, setText] = useState("");
+  // 2. to store the value of previous state !!!
+  const { Text, setText } = useContext(Context);
   const inputRef = useRef();
   const textChange = (e) => {
     setText(e.target.value);
