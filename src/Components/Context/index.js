@@ -1,11 +1,14 @@
 import { createContext, useState } from "react";
-// Store
-export const Context = createContext({
+
+// Contexts
+const ContextApi = {
   Count: 0,
   setCount: () => {},
   Text: "",
   setText: () => {},
-});
+};
+// Store
+export const Context = createContext(ContextApi);
 
 // Provider
 const ContextsProvider = ({ children }) => {
