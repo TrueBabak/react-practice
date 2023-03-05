@@ -1,10 +1,10 @@
-import React from "react";
-import FunctionRef from "../Components/FunctionRef";
+import React, { useContext } from "react";
+import ContextPrac from "../Components/contextPrac";
 
 const App = () => {
   return (
     <div>
-      <FunctionRef />
+      <ContextPrac />
     </div>
   );
 };
