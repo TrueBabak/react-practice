@@ -1,9 +1,10 @@
 import React from "react";
+import FunctionRef from "../Components/FunctionRef";
 
 const App = () => {
   return (
     <div>
-      <div>App</div>
+      <FunctionRef />
     </div>
   );
 };
