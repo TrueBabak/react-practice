@@ -1,10 +1,10 @@
 import React from "react";
-import ContextPrac from "../Components/contextPrac";
+import ReducerFunc from "../Components/ReducerFunction";
 
 const App = () => {
   return (
     <div>
-      <ContextPrac />
+      <ReducerFunc />
     </div>
   );
 };
